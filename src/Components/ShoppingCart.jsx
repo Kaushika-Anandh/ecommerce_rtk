@@ -44,9 +44,8 @@ const ShoppingCart = () => {
         ))}
       </ul>
       <button className="clear-cart-btn" onClick={handleClearCart}>Clear Cart</button>
-      <div>{totalAmount ? <div>'The total amount is {totalAmount}'</div> : ''}</div>
+      <div>{totalAmount ? 'The total amount is {totalAmount}' : ''}</div>
     </div>
-  
     </>
   );
 };
