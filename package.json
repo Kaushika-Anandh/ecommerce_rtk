@@ -12,7 +12,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -r https://github.com/Kaushika-Anandh/ecommerce_rtk.git"
   },
-  "dependencies": {
+  "dependencies": { 
     "@reduxjs/toolkit": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
