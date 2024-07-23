@@ -1,7 +1,7 @@
 {
   "name": "lab7_ecommerce",
   "private": true,
-  "homepage": "https://Kaushika-Anandh.github.io/ecommerce_rtk",
+  "homepage": "./",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,9 +10,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite build && vite preview --host",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/Kaushika-Anandh/ecommerce_rtk.git"
+    "deploy": "gh-pages -d dist -r https://github.com/Kaushika-Anandh/ecommerce_rtk.git"
   },
-  "dependencies": { 
+  "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
